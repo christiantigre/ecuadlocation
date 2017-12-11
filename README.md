@@ -1,8 +1,8 @@
 ## Ecuad location
 
 Paquete que contiene País, Provincias, cantones y parroquias de Ecuador. 
-1. (País - Ecuador Provincias).
-2. (Provincias con sus códigos provinciales).
+1. (País - Ecuador).
+2. (Provincias - Provincias con sus códigos provinciales).
 3. (Cantones - Cantones con sus códigos y postales).
 4. (Parroquias - Parroquias con sus códigos y postales).
 
@@ -11,9 +11,8 @@ La tabla esta relacionadas.
 ## Requisitos
 Realizado en Laravel 5.5
 
-##Instalación
+## Instalación
 
-    
     ```
     composer require andres/ecuadlocation
     ```
@@ -52,11 +51,11 @@ lo que nos interesa es que es psr-4 quede de esa forma.
 
 ## Contribución
 
-Gracias por conciderar contribuir en este paquete, para implementarlo en tu proyecto y mejorar la version del mismo. su contribucion sea bienvenida escribirme a [andrescondo17@gmail.com](mailto:andrescondo17@gmail.com).
+Gracias por considerar contribuir en este paquete, para implementarlo en tu proyecto y mejorar la versión del mismo. su contribución sea bienvenida escribirme a [andrescondo17@gmail.com](mailto:andrescondo17@gmail.com).
 
 ## Security Vulnerabilities
 
-Si descubres de alguna bulnerabilidad en este paquete no dudes en cotifiacrme para poder corregirlo.
+Si descubres de alguna vulnerabilidad en este paquete no dudes en notificar para poder corregirlo.
 
 ## License
 
