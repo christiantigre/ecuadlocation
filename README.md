@@ -19,7 +19,7 @@ Realizado en Laravel 5.5
 ## Instalación
 
 Instalación por composer.
-    ```
+```
     composer require andres/ecuadlocation
     ```
 
