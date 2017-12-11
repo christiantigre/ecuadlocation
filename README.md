@@ -49,6 +49,24 @@ Verificar que el namespace de sus modelos sea el correcto cambiar
 namespace Ecuadlocation; por namespace App;
 ```
 
+Al publicar los archivos del paquete se mostrará algo asi, verificando que se publico correctamente.
+Copied Directory [\vendor\andres\ecuadlocation\src\migrations] To [\database\migrations]
+Copied Directory [\vendor\andres\ecuadlocation\src\Models] To [\app]
+Copied Directory [\vendor\andres\ecuadlocation\src\Console\Commands] To [\app\Console\Commands]
+Publishing complete.
+
+
+Verificar los namespaces en su archivo generado en App/Console/Commnds archivo Pob_location.php Cambiar este
+
+```
+namespace Ecuadlocation\Commands; 
+```
+-- POR --
+
+```
+namespace App\Console\Commands;
+```
+
 
 ## Migrations
 ```
