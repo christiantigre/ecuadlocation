@@ -17,6 +17,10 @@
         "php": ">=5.3.0"
     },
     "autoload":{
+      "classmap": [
+        "database",
+        "packages/ecuad/ecuadlocation/src/migrations"
+    ],
         "psr-4": {
             "Ecuadlocation\\": "src"
         }

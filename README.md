@@ -19,6 +19,15 @@ Realizado en Laravel 5.5
 
 ## Provider
 
+Pueden probar 
+```
+ php artisan package:discover
+ ```
+
+ y si tienen errores hacer lo manual.
+
+ el Provider es: Ecuadlocation\\EcuadServiceProvider
+
 ```
 \Ecuadlocation\EcuadServiceProvider::class,
 ```
