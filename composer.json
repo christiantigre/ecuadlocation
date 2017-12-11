@@ -1,7 +1,7 @@
 {
     "name": "andres/ecuadlocation",
     "type": "library",
-    "description": "Este paquete contiene las provincias, cantones y parroquias de Ecuador. lo realize para implementarlo en un proyecto personal pero pueden hacer de su uso en sus proyectos bienvenidos sean mas colaboradores para mejorar la versión.",
+    "description": "Este paquete contiene las provincias, cantones y parroquias de Ecuador. lo desarrolle para implementarlo en un proyecto personal pero pueden hacer de su uso en sus proyectos bienvenidos sean mas colaboradores para mejorar la versión.",
     "keywords": ["ecuadlocation","ecuad"],
     "type": "laravel",
     "license": "MIT",

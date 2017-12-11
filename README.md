@@ -1,10 +1,10 @@
 ## Ecuad location
 
-Paquete que contiene Pais, Provincias, cantones y parroquias de Ecuador. 
-Pais - Ecuador
-Provincias- Provincias con sus codigos provinciales
-Cantones - Cantones con sus codigos y postales
-Parroquias - Parroquias con ss codigos y postales
+Paquete que contiene País, Provincias, cantones y parroquias de Ecuador. 
+1. (País - Ecuador Provincias).
+2. (Provincias con sus códigos provinciales).
+3. (Cantones - Cantones con sus códigos y postales).
+4. (Parroquias - Parroquias con sus códigos y postales).
 
 La tabla esta relacionadas.
 
@@ -13,22 +13,32 @@ Realizado en Laravel 5.5
 
 ##Instalación
 
-composer require andres/ecuadlocation
+    
+    ```
+    composer require andres/ecuadlocation
+    ```
 
 ## Provider
+
+```
 \Ecuadlocation\EcuadServiceProvider::class,
+```
 
 ## Migrations
+```
 php artisan migrate:install
 php artisan migrate:fresh
+```
 
 ## Poblado DB
+```
 php artisan poblar_acuad
+```
 
 ## Recomendaciones
 Verificar que en el composer.json de sus proyecto se modifique en el autoload de esta forma,
 lo que nos interesa es que es psr-4 quede de esa forma.
-
+```
  "autoload": {
         "classmap": [
             "database/seeds",
@@ -38,6 +48,7 @@ lo que nos interesa es que es psr-4 quede de esa forma.
             "Ecuadlocation\\": "packages/ecuad/ecuadlocation"
         }
     },
+```
 
 ## Contribución
 
