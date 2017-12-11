@@ -20,5 +20,12 @@
         "psr-4": {
             "Ecuadlocation\\": "src"
         }
-    }
+    },
+    "extra": {
+      "laravel": {
+          "providers": [
+              "Ecuadlocation\\EcuadServiceProvider"
+          ]
+      }
+  }
 }
