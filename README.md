@@ -19,8 +19,10 @@ Realizado en Laravel 5.5
 ## Instalación
 
 Instalación por composer.
-```composer require andres/ecuadlocation
-    ```
+
+```
+composer require andres/ecuadlocation
+```
 
 ## Provider
 
@@ -41,8 +43,9 @@ Pueden probar
 php artisan vendor:publish
 ```
 
-```
 Verificar que el namespace de sus modelos sea el correcto cambiar 
+
+```
 namespace Ecuadlocation; por namespace App;
 ```
 
@@ -56,21 +59,6 @@ php artisan migrate:fresh
 ## Poblado DB
 ```
 php artisan poblar_acuad
-```
-
-## Recomendaciones
-Verificar que en el composer.json de sus proyecto se modifique en el autoload de esta forma,
-lo que nos interesa es que es psr-4 quede de esa forma.
-```
- "autoload": {
-        "classmap": [
-            "database/seeds",
-            "database/factories"
-        ],
-        "psr-4": {
-            "Ecuadlocation\\": "packages/ecuad/ecuadlocation"
-        }
-    },
 ```
 
 ## Contribución
