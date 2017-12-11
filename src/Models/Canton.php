@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Canton extends Model
 {
+	protected $table = 'cantones';
+	
     protected $fillable = [
         'canton', 'cod_postal', 'latitud','longitud'
     ];

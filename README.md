@@ -1,3 +1,7 @@
+## Descripción
+
+En todos los proyecto que he realizado me he tomado la molestia de de realizar siempre la implementación de localidades en proyectos como administración de proveedores, control de personal, módulos de clientes y etc. en muchos de estos casos se necesitaba seleccionar las ubicaciones, lugares. por ese motivo realice un paquete aprovechando la potencialidad de laravel, ahora simplemente lo importo a mis proyectos y ya no tengo que empezar a implementarlo de nuevo, simplemente mejorarlo y esas mejoras se actualizaran en todos mis proyectos. 
+
 ## Ecuad location
 
 Paquete que contiene País, Provincias, cantones y parroquias de Ecuador. 
@@ -5,6 +9,7 @@ Paquete que contiene País, Provincias, cantones y parroquias de Ecuador.
 2. (Provincias - Provincias con sus códigos provinciales).
 3. (Cantones - Cantones con sus códigos y postales).
 4. (Parroquias - Parroquias con sus códigos y postales).
+En todas estas tablas se puede ingresar la ubicación de esos lugares como longitud y latitud.
 
 La tabla esta relacionadas.
 
@@ -32,6 +37,16 @@ Pueden probar
 ```
 \Ecuadlocation\EcuadServiceProvider::class,
 ```
+
+```
+php artisan vendor:publish
+```
+
+```
+Verificar que el namespace de sus modelos sea el correcto cambiar 
+namespace Ecuadlocation; por namespace App;
+```
+
 
 ## Migrations
 ```

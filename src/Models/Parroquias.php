@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Parroquias extends Model
 {
+	protected $table = 'parroquias';
+
     protected $fillable = [
         'parroquia', 'cod_postal', 'latitud','longitud'
     ];

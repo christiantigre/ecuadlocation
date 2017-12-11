@@ -20,7 +20,7 @@ class EcuadServiceProvider extends ServiceProvider
                 Commands\Pob_location::class,
             ]);
         }
-        $this->publishes([__DIR__.'/migrations' => base_path('database/migrations/crudbooster')]);
+        $this->publishes([__DIR__.'/migrations' => base_path('database/migrations')]);
         $this->publishes([__DIR__.'/Models' => base_path('app')]);       
     }
 
