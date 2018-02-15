@@ -19,7 +19,7 @@ class Pob_location extends Command
      *
      * @var string
      */
-    protected $description = '/**  Andres/Ecuadlocation **/ --- Realiza el poblade de la base de datos localidades ecuador.';
+    protected $description = '/**  Andres/Ecuadlocation **/ --- Realiza el poblado de la base de datos localidades ecuador.';
 
     /**
      * Create a new command instance.
