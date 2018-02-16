@@ -50,10 +50,12 @@ namespace Ecuadlocation; por namespace App;
 ```
 
 Al publicar los archivos del paquete se mostrará algo asi, verificando que se publico correctamente.
-Copied Directory [\vendor\andres\ecuadlocation\src\migrations] To [\database\migrations]
-Copied Directory [\vendor\andres\ecuadlocation\src\Models] To [\app]
-Copied Directory [\vendor\andres\ecuadlocation\src\Console\Commands] To [\app\Console\Commands]
+Copied Directory [\packages\ecuad\ecuadlocation\src\seeds] To [\database\seeds]
+Copied Directory [\packages\ecuad\ecuadlocation\src\migrations] To [\database\migrations]
+Copied Directory [\packages\ecuad\ecuadlocation\src\Models] To [\app]
+Copied Directory [\packages\ecuad\ecuadlocation\src\Console\Commands] To [\app\Console\Commands]
 Publishing complete.
+
 
 
 Verificar los namespaces en su archivo generado en App/Console/Commnds archivo Pob_location.php Cambiar este
@@ -71,13 +73,16 @@ namespace App\Console\Commands;
 ## Migrations
 ```
 php artisan migrate:install
-php artisan migrate:fresh
+php artisan migrate:fresh --seed
 ```
 
 ## Poblado DB
+
+Debes tener el archivo seeder EcuadTableSeeder este archivo contiene todos los datos para poblar la tabla pais, provincia, cantones y parroquias.
 ```
-php artisan poblar_acuad
+Agregar esta linea en el archivo DatabaseSeeder en la carpeta seed
 ```
+$this->call(EcuadTableSeeder::class);
 
 ## Contribución
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ecuadlocation\Http\Controllers;
+namespace App\Http\Controllers;
 
 
 use App\Http\Controllers\Controller;

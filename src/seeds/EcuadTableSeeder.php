@@ -2,10 +2,10 @@
 
 use Illuminate\Database\Seeder;
 
-use Ecuadlocation\Canton;
-use Ecuadlocation\Pais;
-use Ecuadlocation\Parroquias as Parroquia;
-use Ecuadlocation\Provincias as Provincia;
+use App\Canton;
+use App\Pais;
+use App\Parroquias as Parroquia;
+use App\Provincias as Provincia;
 
 class EcuadTableSeeder extends Seeder
 {
